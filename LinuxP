@@ -1,0 +1,55 @@
+Task 1
+
+1. It is the folders that are in the directory. It means I’ll be able to see them only.
+2. It shows me my location, which folder path I am working on/in.
+3. The mkdir is the commmand used to create a new directory. After using he cd command, the directory that I was working on changed from /home/recruit to /home/recruit/Workspace
+4.Nothing happens and this can be because the folder is empty.
+5. It makes a copy and also renames the copied files.
+
+Task 2
+
+1. touch exercise.md will create the file.
+2. mv exercise.md /tmp will move the exercise.md file into the temp directory.
+3. rm exercise.md /home/recruit/Workspace/tmp/exercise.md will remove the exercise.md file.
+
+Task 3
+
+1. touch umuzi.md recruit.md cohort.md will create the three files.
+2. edit the text inside all three file.
+3. cat cohort.md recruit.md umuzi.md will display all the content in those files
+4. cat cohort.md recruit.md umuzi.md >> summery.md will display the conetent of all three files and also save them in a different file name summery.
+5. create a new text file with the words the end inside and use the cat command to append the summary file.
+
+Task 4
+1. Find umuzi.md
+2. find umuzi.md > search_results.md
+
+Task 5
+1. /home/recruit/Documents touch pad.md
+2. cd .. then cd Desktop, then mkdir Work
+3.cp /home/recruit/Documents/pad.md pad_copy.md
+4. locate updatedb
+/etc/updatedb.conf
+/etc/alternatives/updatedb
+/etc/alternatives/updatedb.8.gz
+/usr/bin/updatedb
+/usr/bin/updatedb.mlocate
+/usr/share/man/man5/updatedb.conf.5.gz
+/usr/share/man/man8/updatedb.8.gz
+/usr/share/man/man8/updatedb.mlocate.8.gz
+/usr/share/vim/vim80/ftplugin/updatedb.vim
+/usr/share/vim/vim80/syntax/updatedb.vim
+5. cd -
+/home/recruit
+6.locate pad_copy.md
+/home/recruit/Desktop/pad_copy.md
+
+Task 6
+1. find ./recruit -name *.pdf
+2. find *.pdf ~/Workspace
+3. find /home/recruit -mtime -0.5 -ls
+
+Task 7
+1. nano my_bio.md
+2. ctrl x to exit and y to confirm
+3. mv my_bio.md /my_files
